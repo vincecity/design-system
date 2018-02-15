@@ -21,7 +21,7 @@ module Jekyll
 
     def render(context)
       if @content
-        @content
+        @content.force_encoding(Encoding::UTF_8)
       else
         raise 'Something went wrong in RemoteFileContent'
       end

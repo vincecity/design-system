@@ -138,8 +138,8 @@ pre,
 code {
   @include relative-font-size(0.9375);
   border: 1px solid $grey-color-light;
-  border-radius: 3px;
-  background-color: #eef;
+  border-radius: 5px;
+  background-color: #fff;
 }
 
 code {
@@ -149,6 +149,9 @@ code {
 pre {
   padding: 8px 12px;
   overflow-x: auto;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.20);
+  max-height: 300px;
+
 
   > code {
     border: 0;
