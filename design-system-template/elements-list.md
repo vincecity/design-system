@@ -12,7 +12,7 @@ permalink: /elements/
 
 Welcome to {{ site.title | escape }}
 
-{% highlight javascript %}
+{% highlight javascript tabsize=2 %}
 
 {% remote_file_content https://raw.githubusercontent.com/vincecity/facts-wit/master/index.js %}
 

@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Buttons"
+date:   2018-02-14 17:10:43 +0100
+categories: buttons atoms
+---
+### Usage
+
+Buttons are useful in any situation that necessitate user input to toggle or launch an action.  
+
+**There are three** main types of buttons
+- [Basic Buttons](### Basic Buttons)
+- main action Buttons
+- toggle buttons
+
+### Basic Buttons
+
+{% highlight javascript tabsize=2 %}
+{% remote_file_content https://raw.githubusercontent.com/vincecity/facts-wit/master/index.js %}
+{% endhighlight %}
+[View in the repository](https://raw.githubusercontent.com/vincecity/facts-wit/master/index.js)
+
+
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
